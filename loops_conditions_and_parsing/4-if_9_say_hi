@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#creating a script that uses a while loop
+x=0                                                                              
+while [ $x -lt 10 ]                                                              
+do                                                                               
+	if [ "$X" -eq 9 ]   
+then 
+	echo "hi" 
+	fi
+	echo "Best School"
+	x=$(( x + 1 )) 
+done        
