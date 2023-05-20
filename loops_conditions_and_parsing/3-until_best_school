@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #creating a script that uses a until loop
-x=1
-until [ $x -le 10 ]
+x=0
+until [ $x -gt 9 ]
 do
 	echo "Best School"
 	x=$(( x + 1 ))
